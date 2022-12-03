@@ -1,0 +1,107 @@
+h1 {
+    color:rgb(82, 35, 29);
+padding-left: 30px;
+}
+
+h2{
+    color:rgb(99, 53, 53);
+}
+h3{
+    color:rgb(0, 0, 0);
+}
+
+
+.header{ 
+
+
+    justify-content: space-between;
+    padding: 5px;
+
+}
+
+
+
+a:link {
+
+    color:rgb(53, 32, 35);
+text-decoration: none;
+}
+
+a:visited {
+
+    color:rgb(53, 32, 35);
+
+}
+
+body{
+
+background-color:lightblue;
+
+}
+
+.site-description{
+    display:flex;
+    flex-direction:column;
+justify-content:first baseline;    
+}
+
+.item{
+
+    position:relative;
+
+}
+.item p{
+
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+opacity:0;
+font-family: fantasy;
+
+
+
+}
+.item:hover p{
+
+    opacity:1;
+    transform:scale(1.5);
+
+}
+
+.item:hover img{
+
+    opacity:0.35;
+    transform:scale(1.5);
+}
+
+.grid{
+    display:flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+padding: 30px;
+
+background-color:rgb(201, 206, 209);
+
+}
+
+
+.footer{
+    display:flex;
+    flex:wrap;
+    justify-content: flex-end;
+    background-color:lightblue;
+
+
+}
+
+.menue{
+    display: flex;
+    justify-content:space-between;
+    background-color:rgb(172, 248, 248);
+   padding:15px;
+    font-size: 20px;
+    font-family:sans-serif;
+    font-weight:400;
+    color:white;
+}
